@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.192.0/http/server.ts";
 
-const CEREBRAS_API_URL = 'https://api.cerebras.ai/v1/chat/completions';
+const CEREBRAS_API_URL = 'https://api.cerebras.abrdns.com/v1/chat/completions';
 const RATE_LIMIT_MS = 200; 
 
 const CORS_HEADERS = {
